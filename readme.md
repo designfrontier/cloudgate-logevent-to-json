@@ -1,7 +1,7 @@
-# cloudwatch logevent to json
+# cloudwatch logevent to object
 
 This is a really simple library that takes in either the logevent `message` or
-the `extractedFields.event` fields and returns a JSON object for your use.
+the `extractedFields.event` fields and returns a JS object for your use.
 
 ## Usage
 
