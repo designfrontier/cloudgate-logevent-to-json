@@ -1,0 +1,12 @@
+src/
+jest/
+coverage/
+node_modules/
+.bablerc
+.eslintignore
+.eslintrc
+.flowconfig
+.prettierignore
+.prettierrc
+jest.config.js
+webpack.config.js
