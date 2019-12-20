@@ -19,7 +19,11 @@ export const formatEvent = (evnt: string) => {
 
   return data.reduce((a, i) => {
     const kv = i.split(':');
-    a[kv[0].trim()] = kv[1].replace(/"/g, '').trim();
+
+    a[kv.shift().trim()] = kv
+      .join(':')
+      .replace(/"/g, '')
+      .trim();
 
     return a;
   }, json);
